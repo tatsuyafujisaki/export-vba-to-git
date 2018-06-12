@@ -1,6 +1,6 @@
 @echo off
 
-set gitRepositoryUrl=https://git.example.com/dummy.git
+set gitRepositoryUrl=https://example.com/dummy.git
 set temporaryFolder=%TEMP%\%RANDOM%
 
 git clone -q %gitRepositoryUrl% "%temporaryFolder%"
